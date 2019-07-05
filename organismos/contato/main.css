@@ -8,13 +8,11 @@
 }
 
 #icones{
-    position:relative;
     height: 100px;
     width:60%;
     margin:0 auto;
     display: flex;
     flex-direction: row;
-    /* border:1px solid blue; */
     align-items: center;
     justify-content: space-around;
 }
@@ -22,9 +20,7 @@
     text-align:center;
     width: 100%;
     padding:10px;
-    /* border:1px solid green; */
 }
-
 
 .icone .fa-phone{
     transform:rotatey(180deg);
@@ -54,78 +50,33 @@
 
 /********************************   MEDIA QUERY ************************************/
 
+@media(max-width:1200px){#icones{width: 85%;}}
+@media(max-width:768px){#contato textarea{ height:100px;}}
 @media(max-width:576px){
-    #icones .icone h2{font-size:18px;}
-    #contato form{margin-top:3em;}
-    #contato textarea{ height:100px;margin: 0 0 2em 0;}  
+    #icones .icone h2{font-size:17px;}    
+    #icones .icone .fa-phone{font-size:15px;}
+    #icones .icone .fa-envelope{font-size:22px;}
+    #icones{display: block;}
+}
+
+@media(max-width:996px){
+    #icones{    
+        margin-top: 2.5em;
+        height:100%;
+    }
+    #contato form{height:100%;margin-top:3em; padding:10px;}
+    #icones .icone .fa-phone{
+        display: table;
+        margin:10px auto;
+    }
+    .icone .fa-envelope{
+        display: table;
+        margin: 10px auto;
+    }
+}
+
+
     
-    #icones{    
-        margin: 3em 0 0 0;
-        height:100%;
-        width:100%;
-        display:block;
-    }
+      
+   
 
-    #icones .icone .fa-phone{
-        position:static;
-        display: table;
-        margin:10px auto;
-        font-size:12px;
-    }
-    .icone .fa-envelope{
-        position:static;
-        display: table;
-        margin: 10px auto;
-        font-size:20px;
-    }
-}
-
-@media(max-width:768px){
-    #icones{    
-        margin: 2.5em 0 0 0;
-        height:100%;
-        width:100%;
-        display:block;
-    }
-
-    #contato form{margin-top:3em;}
-    #contato textarea{ height:100px;margin: 0 0 2em 0;}  
-    #icones .icone .fa-phone{
-        position:static;
-        display: table;
-        margin:10px auto;
-        font-size:14px;
-    }
-    .icone .fa-envelope{
-        position:static;
-        display: table;
-        margin: 10px auto;
-        font-size:20px;
-    }
-
-}
-
-
-@media(max-width:1079px){
-    #icones{    
-        margin: 2.3em 0 0 0;
-        height:100%;
-        width:100%;
-        display:block;
-        /* border:1px solid red; */
-    }
-
-    #icones .icone .fa-phone{
-        position:static;
-        display: table;
-        margin:10px auto;
-        font-size:1.2em;
-    }
-    .icone .fa-envelope{
-        position:static;
-        display: table;
-        margin: 10px auto;
-        font-size:1.3em;
-    }
-
-}

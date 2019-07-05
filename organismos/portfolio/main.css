@@ -22,37 +22,12 @@
 }
 
 #portfolio p{font-family: 'Raleway', sans-serif;line-height: 23px;color:000;}
-#portfolio .box{transition: all 1s; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);}
-#portfolio .box:hover{cursor:pointer;transform:rotatey(180deg);}   
-#portfolio .efect{transition:all 1s;cursor:pointer;box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);}
-#portfolio .efect:hover{ transform:scale(1.04); transform:rotateX(360deg);}
+#portfolio .box{transition: all 0.2s; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);}
+#portfolio .box:hover{cursor:pointer;transform:scale(1.1);opacity: 0.88;}
 
 
 
 /******************************** MEDIA QUERY ********************************/
-
-@media (max-width:576px){
-    #portfolio{
-      display: flex;
-      height: 100%;
-      padding:30px 10px;
-    }
-    #portfolio img{
-        margin: 17px 0 ;
-    }
-}
-
-
-@media (max-width:768px){
-    #portfolio{
-      display: flex;
-      height: 100%;
-      padding:30px 10px;
-    }
-    #portfolio img{
-        margin: 17px 0 ;
-    }
-}
 
 @media (max-width:992px){
     #portfolio{
@@ -64,3 +39,4 @@
         margin: 17px 0 ;
     }
 }
+
