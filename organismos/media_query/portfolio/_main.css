@@ -1,0 +1,33 @@
+@media (max-width:576px){
+    #portfolio{
+      display: flex;
+      height: 100%;
+      padding:30px 10px;
+    }
+    #portfolio img{
+        margin: 17px 0 ;
+    }
+}
+
+
+@media (max-width:768px){
+    #portfolio{
+      display: flex;
+      height: 100%;
+      padding:30px 10px;
+    }
+    #portfolio img{
+        margin: 17px 0 ;
+    }
+}
+
+@media (max-width:992px){
+    #portfolio{
+      display: flex;
+      height: 100%;
+      padding:30px 10px;
+    }
+    #portfolio img{
+        margin: 17px 0 ;
+    }
+}

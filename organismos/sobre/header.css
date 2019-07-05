@@ -1,0 +1,119 @@
+.logo-topo:hover{transform:scale(1.2); box-shadow:3px 3px 8px rgba(0, 0, 0, 0.055);}
+#header .logo-topo{
+    transition:all 0.35s;
+    color:transparent;
+    display: block;
+    height:40px;
+    width: 80px;
+    margin: 7px 0 0.15em 0;
+    background: url('../../img/vinicius_logo_MV.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center;
+}
+
+#header{
+    position:relative;
+    transition:all 0.25s;
+    height:600px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.02), #000), url('../../img/ia7.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+#menu-principal a.nav-link{margin:12px 0px;}
+#header button{background:#aaa;outline:none;transition:all 0.25s;}
+#header span:hover{cursor:pointer;color:white;}
+#header .nav-link{transition:all 0.2s; color:#fff;text-transform:uppercase; padding:4px 10px;margin:5px 0;}
+#header > nav > div > div > ul > li > a.nav-link:hover{border-bottom:2px solid #ffa500;}
+#header span i{font-size:30px; color:#fff;cursor:pointer}  
+#header ul li i:hover{transform:scale(1.1);color:#f2f2f2;border-color:#ffa500;}
+
+#header i{
+    transition:all 0.25s;
+    border:2px solid #f2f2f2;
+    font-size:25px; 
+    color:#aaa;
+    border-radius:50%;
+    padding:6px 7px;
+    margin:0px 18px 0 -10px;
+}
+
+/*ANIMAÇÕES*/
+
+@keyframes titulo-principal{
+    0%{
+        transform:translate(-100%);
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        transform:translate(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes sub-titulo{
+    0%{
+        transform:translate(100%);
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        transform:translate(0%);
+        opacity: 1;
+    }
+}
+
+
+#header h1{
+    animation-delay: 0.5s;
+    animation-name: titulo-principal;
+    animation-iteration-count: 1;
+    animation-duration: 1.5s;
+    transition:all 0.25s;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-size:3.2em;
+    display: table;
+    clear: both;
+    margin:3.77em auto 0 auto;
+    padding: 8px 10px;
+    text-align:center;
+    border:4px solid #fff;
+    color:#eeeeee;
+    text-transform: uppercase;
+    align-self: flex-end;
+}   
+#header p{
+    animation-delay: 0.5s;
+    animation-name: sub-titulo;
+    animation-iteration-count: 1;
+    animation-duration: 1.5s;
+    padding:0 14px;
+    color:#fff;
+    margin:15px auto;
+    text-transform: uppercase;
+    text-align:center;
+    font-family:'Open Sans Condensed', sans-serif; 
+    font-size:18px;
+}
+
+#header::after{
+    position:absolute;
+    bottom:0;
+    content:'';
+    display: block;
+    margin-top:13.40em;
+    width:100%;
+    height:45px;
+    background:linear-gradient(to right, #000, #ffa500,#000);
+}
+ 
+
+

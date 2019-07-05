@@ -1,0 +1,28 @@
+@media (max-width:590px){
+    #sobre .itens{
+        display:block;
+        text-align: center;
+    }
+    .itens .imagem{
+        display: block;
+        
+    }
+
+    #sobre .texto p{padding:0 15px;}
+    .itens .icone-lapis{margin:15px 3.98px; display: inline-block; font-size:22px; width:75px;height:75px;line-height: 85px;text-align: center;}
+    .itens .icone-coracao{margin:15px 3.98px; display: inline-block; font-size:22px; width:75px;height:75px;line-height: 85px;text-align: center;}
+    .itens .icone-codigo{margin:15px 3.98px; display: inline-block; font-size:22px; width:75px;height:75px;line-height: 85px;text-align: center;}
+    .itens .icone-compartilhar{margin:15px 3.98px; display: inline-block; font-size:22px; width:75px;height:75px;line-height: 85px;text-align: center;}
+}
+
+@media (max-width:768px){
+    .itens .icone-lapis{display: inline-block;margin: 20px 12px 1em 0;}
+    .itens .icone-coracao{display: inline-block;margin: 20px 12px 1em 0;}
+    .itens .icone-codigo{display: inline-block;margin: 20px 12px 1em 0;}
+    .itens .icone-compartilhar{display: inline-block;margin: 20px 12px 1em 0;}
+    #sobre .itens{
+        display:block;
+        text-align: center;
+    }
+    
+}

@@ -1,0 +1,14 @@
+@import url('../atomos/fontes.css');
+@import url('../atomos/botoes.css');
+@import url('../atomos/inputs.css');
+@import url('../moleculas/formularios.css');
+@import url('../moleculas/reset.css');
+@import url('../organismos/home/main.css');
+@import url('../organismos/home/header.css');
+@import url('../organismos/home/footer.css');
+@import url('../organismos/media_query/home/_header.css');
+@import url('../organismos/media_query/home/_main.css');
+@import url('../organismos/media_query/home/_footer.css');
+
+
+
